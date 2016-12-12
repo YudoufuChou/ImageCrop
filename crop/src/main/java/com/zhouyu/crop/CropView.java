@@ -151,12 +151,7 @@ public class CropView extends FrameLayout {
 
 
             try{
-                //对图片进行第一次缩放，缩放到截图框能够截取到的大小刚好是目标截图尺寸大小
-//                int firstScaleType = sizeOf.resultWidth/sizeOf.minWidth;
-//                bitmap = Bitmap.createScaledBitmap(bitmap,(int)(bitmapWidth/firstScaleType),(int)(bitmapHight/firstScaleType),false);
-
                 //对截取坐标进行转换
-//                bitmapWidth = bitmap.getWidth();
                 float resizeScale = (float) bitmapWidth/sizeOf.screenWidth;
                 int cropStartX = 0;
                 int cropStartY = 0;
