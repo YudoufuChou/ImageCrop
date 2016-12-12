@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CropZY">
+        <!--截取比例是否固定-->
+        <attr name="isFixed" format="boolean" />
+        <!--截取图片目标尺寸的高-->
+        <attr name="targetHight" format="integer" />
+        <!--截取图片目标尺寸的宽-->
+        <attr name="targetWidth" format="integer" />
+    </declare-styleable>
+</resources>

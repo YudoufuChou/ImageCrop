@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="crop_move_offset">4dp</dimen>
+    <dimen name="crop_action_offset">18dp</dimen>
+    <dimen name="crop_window_init_margin">35dp</dimen>
+    <dimen name="crop_crycle_r">7dp</dimen>
+</resources>
