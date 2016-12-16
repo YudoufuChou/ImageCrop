@@ -68,6 +68,7 @@ public class CropView extends FrameLayout {
 
     private void init() {
         imageShowView = new ImageView(getContext());
+        imageShowView.setScaleType(ImageView.ScaleType.CENTER_CROP);
         maskView = new CropMaskView(getContext());
         addView(imageShowView);
         addView(maskView);
